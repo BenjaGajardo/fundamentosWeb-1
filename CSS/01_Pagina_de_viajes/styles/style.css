@@ -120,3 +120,10 @@ footer{
     border-radius: 5px;
     box-sizing: border-box; /* Incluye el padding y el borde del ancho dentro del elemento que lo contiene */
 }
+#banner-hoteles{
+    background-image: url('https://thevisionary.finamex.com.mx/hubfs/hotelesdesise%C3%B1o.png'); /* Establece la imagen de fondo del banner */
+    background-size: cover; /* Ajusta la imagen al área del banner */
+    color: #ffffff; /* Establece el color del texto */ 
+    text-align: center; /* Centra el texto del banner */
+    padding: 300px; /* Añade relleno superior e inferior */
+}
