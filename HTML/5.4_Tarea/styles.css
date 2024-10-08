@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.card {
+    width: 550px;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+}
+
+.card-header {
+    background-color: #0097a7;
+    height: 90px;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.user-icon img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -10px;
+    margin-top: 210px;
+}
+
+h2 {
+    margin: 10px 0 5px;
+    font-size: 22px;
+}
+
+.location-icon {
+    width: 15px;
+    vertical-align: middle;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.edit-profile {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0097a7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.edit-profile img {
+    width: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.edit-profile:hover {
+    text-decoration: underline;
+}

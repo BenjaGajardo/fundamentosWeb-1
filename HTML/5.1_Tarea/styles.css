@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.row{
+    justify-content: center;
+    display: flex;
+    background-color:orange;
+    height: 200px;
+    width: 90%;
+    margin: 50px;
+}
+
+#green{
+    background-color: green;
+}
+#aqua{
+    background-color: aqua;
+}
+
+#img{
+    
+}
+
+
+
+
+
