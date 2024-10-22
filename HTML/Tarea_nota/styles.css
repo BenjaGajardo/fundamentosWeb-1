@@ -1,4 +1,4 @@
-/*
+
 * {
     outline: solid black 1px;
 }
@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-body {
+header {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
@@ -17,13 +17,17 @@ body {
 .nav {
     background-color: #333;
     display: flex;
-    justify-content: space-between;
-    padding: 0px 10px;
+    justify-content: flex-start;
+    padding: 0px 20px;
     color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 98%;
 }
 
 ul{
-    justify-content: center;
+    justify-content: flex-start;
     display: flex;
     list-style: none;
     padding: 10px;
@@ -44,6 +48,7 @@ ul{
     padding: 10px;
     box-shadow: #000;
     cursor: pointer;
+    margin-left: auto;
 }
 
 .nav-title{
@@ -53,7 +58,7 @@ margin-top: 10px;
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
@@ -62,7 +67,7 @@ body {
 
 .card {
     width: 550px;
-    min-height: 300px;
+    min-height: 100px;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -87,7 +92,7 @@ body {
     background-color: #ccc;
     margin-bottom: 10px;
     position: absolute;
-    top: -10px;
+    top: -28px;
     margin-top: 210px;
 }
 
@@ -123,3 +128,10 @@ p {
 .edit-profile:hover {
     text-decoration: underline;
 }
+
+.education-header h2{
+background-color: #333;
+color: #fff;
+
+}
+
