@@ -1,4 +1,4 @@
-
+/*
 * {
     outline: solid black 1px;
 }
@@ -59,10 +59,9 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: left;
-    align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
-    margin: 0;
+    margin-top: 30px;
 }
 
 .card {
@@ -92,7 +91,7 @@ body {
     background-color: #ccc;
     margin-bottom: 10px;
     position: absolute;
-    top: -28px;
+    top: -70px;
     margin-top: 210px;
 }
 
@@ -130,8 +129,74 @@ p {
 }
 
 .education-header h2{
-background-color: #333;
-color: #fff;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
 
+.education{
+    margin-top: 30px; 
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.education-content{
+    padding: 20px;
+    text-align: left;
+}
+
+.father{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+img{
+    border-radius: 100%;
+    height: auto;
+    width: 40px;
+}
+
+.conection-content p{
+    justify-content: space-between;
+    display: flex;
+}
+.conection-header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+.your-conection p{
+    justify-content: left;
+    display: flex;
+}
+
+.your-conection img{
+    margin-right: 10px;
+}
+
+.your-conection-header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+.container1{
+    margin-right: 60px;
+}
+
+.view-more a{
+    color: #0097a7;
+    margin: 10px;
+}
+
+.your-conection-container{
+margin-top: 40px;
 }
 
