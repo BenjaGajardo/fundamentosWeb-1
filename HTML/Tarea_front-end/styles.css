@@ -158,5 +158,67 @@ body {
     cursor: pointer;       
 }
 
+.button{
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+    height: 10vh;
+}
+
+.menú{
+    display: flex;       /* Coloca los botones en una fila */
+    gap: 20px;           /* Espacio entre los botones */
+    justify-content: center; /* Centra los botones dentro del contenedor */
+}
+
+.menú img{
+    width: 180px;
+    height: auto;
+    margin: 0 auto;
+    display: inline-block;
+    margin-right: 40px; 
+}
+
+.menú button{
+    display: flex;
+    flex-direction: column; /* Coloca el texto debajo de la imagen */
+    align-items: center;    /* Centra imagen y texto */
+    border: none;           /* Quita el borde del botón */
+    background: none;       /* Quita el fondo del botón */
+    cursor: pointer;
+}
+
+.menú2{
+    display: flex;       /* Coloca los botones en una fila */
+    gap: 20px;           /* Espacio entre los botones */
+    justify-content: center; /* Centra los botones dentro del contenedor */
+}
+
+.menú2 img{
+    width: 180px;
+    height: auto;
+    margin: 0 auto;
+    display: inline-block;
+    margin-right: 40px; 
+}
+
+.menú2 button{
+    display: flex;
+    flex-direction: column; /* Coloca el texto debajo de la imagen */
+    align-items: center;    /* Centra imagen y texto */
+    border: none;           
+    background: none;       
+    cursor: pointer;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.boton{
+
+}
 
 
