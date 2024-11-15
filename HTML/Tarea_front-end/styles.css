@@ -258,6 +258,7 @@ body {
 
 .img-kfc img{
     width: 110px;
+    margin-bottom: 20px;
 }
 
 .lineas-texto{
@@ -272,6 +273,7 @@ body {
 
 .texto5 img{
     cursor: pointer;
+    width: 70px;
 }
 
 .texto3{
@@ -281,6 +283,7 @@ body {
 .texto3 button{
     border:none;
     cursor: pointer;
+    background: none;
 }
 
 .texto4{
@@ -290,6 +293,7 @@ body {
 .texto4 button{
     border:none;
     cursor: pointer;
+    background: none;
 }
 
 .texto2{
@@ -298,13 +302,26 @@ body {
 
 footer{
     background-color: #f8f7f5;
+    margin-top: 100px;
+    padding: 60px;
 }
-
-
 
 .boton-app img {
     width: 24px; /* Ajusta este valor según el tamaño deseado */
     height: 24px; /* Mantiene proporciones */
     margin: 0 5px; /* Espacio entre los íconos */
 }
+
+.texto6{
+    background-color: #f8f7f5;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.boton-app{
+    transform: translateY(60px);
+}
+
+
+
 
